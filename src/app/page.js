@@ -13,7 +13,9 @@ export default function Home() {
         </section>
         {/* Mini Profile.jsx */}
         <section className="hidden md:inline-grid md:col-span-1">
-          <MiniProfile></MiniProfile>
+          <div className="fixed w-[380px]">
+            <MiniProfile></MiniProfile>
+          </div>
         </section>
       </main>
     </>
